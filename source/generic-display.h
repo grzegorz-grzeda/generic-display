@@ -60,6 +60,7 @@ typedef struct generic_display {
     generic_display_info_t info;
     generic_display_handler_t reset;
     generic_display_handler_t update;
+    generic_display_handler_t destroy;
     generic_display_fill_handler_t fill;
     generic_display_pixel_handler_t pixel;
     generic_display_line_handler_t line;
